@@ -15,7 +15,9 @@ better than plywood or plastic in the event the bottom encounters any damage or 
 and make it easier to transport a heavy machine like this one, without letting it roll away. Handles were added to enable the lifting of the machine (into trucks, or onto tables)
 Large vents were added to allow the electronics to breathe, they are flat on one side to enable the cooling of electronics. While they might not have cool geometric patterns like voron vents,
 I think they look okay and reinforce the "Form over function" soul of this machine. 
- ## Part 1.1: Door (5/19/26)
- <img width="976" height="1044" alt="image" src="https://github.com/user-attachments/assets/fac31f15-c918-4ec4-af56-e561adb9289a" />
- I added a nice robust, and sealed door made with 1515 extrusions as the frame, and handle that pushes the flange seal to trap heat. 
- 
+## Part 1.1: Door (5/19/26)
+<img width="976" height="1044" alt="image" src="https://github.com/user-attachments/assets/fac31f15-c918-4ec4-af56-e561adb9289a" />
+I added a nice robust, and sealed door made with 1515 extrusions as the frame, and handle that pushes the flange seal to trap heat. 
+## Part 2: Z-axis (5/19/26-5/25/26)
+<img width="803" height="829" alt="Image" src="https://github.com/user-attachments/assets/12f82d21-7cbe-49cb-8c90-e882d33d8822" />
+The Z axis is pretty simple. It reuses a large amount of components from the original ender 5 z axis, however it's been modified to fit the new frame, and has a 1kw heating pad to improve heating times, a thermal fuse mounted for safety in the event of an SSR failing (which oftentimes happens in the closed state), and an edge thermistor to compare temperature deltas to monitor the heatsoaking process. Unfortunately, the bed remains the stock steel sheet, as graphite or a cast bed would cost an astronomical amount and the extreme warpage can be compensated with the high-resolution eddy current scanner in this machine. 
