@@ -7,57 +7,31 @@ The ultimate, all-out, function or nothing, no-compromises printer.
 
 Primarily recycling an ender 5 plus, this printer is inspired by machines like the prusa XL, snapmaker u1, voron stealthchanger, prusa core one INDX, bambulab h2c, and VZ330.
 With it's emphasis on pure performance and functionality, it features:
+- **377x377x400mm Build Volume**
+- **CoreXY Motion System:** Closed-loop servo system based on Falcon 500 and ODrive
+- **9mm GT3 Belt System Gantry:** Features liveshafts and double shear
+- **Lightweight X-Axis:** Optimized aluminum tube design
+- **1kW Mains Heated Bed**
+- **1kW Chamber Heating System:** Intelligent power-sharing with the bed and hotends for dynamic power limits
+- **Muffled CPAP Cooling System**
+- **Chamber Ventilation**
+- **Structural Steel Panels**
+- **Dual-Layer Protection** for mains-powered devices
+- **Active VFA Compensation:** Utilizes anticogging and lookup-table calibration
+- **Safety & Monitoring:** CAN bus watchdog and fully closed-loop servo monitoring
+- **Automatic Self-Health Checking** routines for the gantry
+- **Eddy-Current Based** high-speed bed probing
+- **High-Performance Motion & Meltzone:** Supports sustained speeds of 1000mm/s+ with extreme acceleration
+- **Automatic Purging** and nozzle cleaning
+- **Z-Axis Input Shaping**
 
-377x377x400MM build volume
+### In the future, I plan to add the following features:
 
-Corexy, Closed loop servo system based on Falcon 500 and Odrive
-
-9MM GT3 belt system gantry with liveshafts and double shear
-
-Lightweight, Optimized aluminum tube X axis
-
-1KW mains bed
-
-1KW chamber heating system with intelligent power-sharing with the bed and hotends to allow dynamically set power limits in various scenarios
-
-Muffled CPAP cooling system
-
-Chamber ventilation
-
-Structural steel panels
-
-2-Layer protection for mains devices
-
-Active VFA compensation via anticogging and lookup table calibration
-
-CANBUS watchdog and fully closed-loop servo monitoring
-
-Automatic self-health checking routines for gantry
-
-Eddy current based high speed bed probing
-
-Extremely high acceleration and velocity motion system and meltzone capable of supporting sustained 1000mm/s+
-
-Automatic purging and nozzle cleaning
-
-Z-axis input shaping
-
-
-#### In the future, I plan to add the following features:
-
-
-Rapid toolchanging system
-
-Multi-lane MMU/Toolchanger extrusion system to share filaments accross toolchangers or single nozzle indexer
-
-Active synchronized extrusion assistant via bowden & direct drive hybrid
-
-Active closed-loop filament odometry for clog, jam, or even max flowrate testing
-
-FOC extruder motor
-
-Triple motor kinematic bed with automatic leveling
-
-Blackbox external system monitor with contactor for further safety
-
+- **Rapid Toolchanging System**
+- **Multi-Lane MMU/Toolchanger Extrusion System:** Shares filaments across multiple toolchangers or a single-nozzle indexer
+- **Active Synchronized Extrusion Assistant:** A hybrid Bowden and direct-drive setup
+- **Active Closed-Loop Filament Odometry:** Real-time tracking for clogs, jams, or maximum flow rate testing
+- **FOC Extruder Motor**
+- **Triple-Motor Kinematic Bed** with automatic tramming/leveling
+- **Blackbox External System Monitor:** Features an integrated contactor for advanced safety cutoff
 
